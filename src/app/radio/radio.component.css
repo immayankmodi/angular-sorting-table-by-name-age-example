@@ -1,0 +1,13 @@
+.radioButtons {
+    text-align: center;
+}
+
+.left {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.right {
+    display: inline-block;
+    margin-right: 10px;
+}

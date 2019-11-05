@@ -1,0 +1,12 @@
+<div class="table-div">
+    <table class="table table-striped table-bordered table-hover full-width">
+        <tr>
+            <th class="course-name">Person Name</th>
+            <th class="duration">Date of Birth</th>
+        </tr>
+        <tr *ngFor="let b of birthdays">
+            <td style="height:50px;" class="course-name">{{b.name}}</td>
+            <td style="height:50px;" class="duration">{{b.birth}}</td>
+        </tr>
+    </table>
+</div>

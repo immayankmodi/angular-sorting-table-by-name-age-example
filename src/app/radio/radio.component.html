@@ -1,0 +1,9 @@
+<div class="radioButtons">
+    <div class="left">
+        <input type="radio" value="name" ngModel="{{model.sortBy}}" (change)="changeSortBy('name')">
+            &nbsp;&nbsp;Sort by name
+    </div>
+    <div class="right">
+        <input type="radio" value="age" ngModel="{{model.sortBy}}" (change)="changeSortBy('age')">&nbsp;&nbsp;Sort by age
+    </div>
+</div>
